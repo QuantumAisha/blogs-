@@ -10,9 +10,10 @@ function App() {
       </header>
 
       <nav>
-        <a href="/politics">Technology</a>
-        <a href="/technology">Heritage</a>
-        <a href="/science">Arts</a>
+      <a href="/Home">Home</a>
+        <a href="/About">About</a>
+        <a href="/Department's blogs">Department's blogs</a>
+        <a href="/Action">Action</a>
         {/* Add more categories as needed */}
       </nav>
 
