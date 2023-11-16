@@ -94,7 +94,13 @@ header.menu-toggle{
     padding: 4px 10px;
     border-radius: 4px;
 }
-.post
+.post{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px,auto));
+    justify-content: center;
+    gap: 1.5rem;
+}
+
 .home{
     width: 100%;
     min-height: 440px;
@@ -117,12 +123,6 @@ header.menu-toggle{
 }
 .post-box{
     background-image: url("technology.jpeg")
-}
-.post{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px,auto));
-    justify-content: center;
-    gap: 1.5rem;
 }
 
 /*MEDIA QUERIES*/
